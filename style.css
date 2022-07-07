@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    color: #068EE8;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    color: black;
+}
+
+.container{
+    width: 900px;
+    height: 900px;
+    border: solid 1px black;
+    display: grid;
+    align-self: center;
+    grid-template-rows: repeat(16, auto);
+    grid-template-columns: repeat(16, auto);
+}
+
+.etchTile{
+    border: 2px solid black;
+    background-color: aquamarine;
+}
