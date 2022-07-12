@@ -11,14 +11,32 @@ body{
     color: black;
 }
 
+#pageHeading{
+    text-align: center;
+}
+
+.btn{
+    margin-top: 40px;
+}
+
 .container{
-    width: 900px;
-    height: 900px;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 40px;
     border: solid 1px black;
     display: grid;
     align-self: center;
-    grid-template-rows: repeat(16, auto);
-    grid-template-columns: repeat(16, auto);
+    /* grid-template-rows: repeat(16, auto);
+    grid-template-columns: repeat(16, auto); */
+}
+
+.breakLineDiv{
+    width: 960px;
+    height: 960px;
+    display: grid;
+    align-self: center;
+    grid-template-rows: repeat(auto, auto);
+    grid-template-columns: repeat(auto);
 }
 
 .etchTile{
